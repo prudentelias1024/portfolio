@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata, Viewport } from 'next';
-// @ts-expect-error Next.js resolves global CSS imports without TypeScript declarations.
+// @ts-expect-error CSS is handled by Next.js and has no TypeScript declarations.
 import '../styles/index.css';
 
 export const viewport: Viewport = {

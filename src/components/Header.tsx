@@ -42,7 +42,7 @@ export default function Header() {
           onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--color-accent-muted)')}
           onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--color-accent)')}
         >
-          ~/xclusive
+          Elias' Portfolio
         </a>
         <div className="flex-1" />
         <nav className="hidden md:flex items-center gap-6">
