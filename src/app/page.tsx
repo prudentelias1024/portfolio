@@ -12,10 +12,7 @@ export default function Home() {
   return (
     <div
       className="min-h-screen transition-colors duration-300"
-      style={{
-        backgroundColor: 'var(--color-bg-primary)',
-        color: 'var(--color-text-primary)',
-      }}
+    
     >
       <Header />
       <main>
