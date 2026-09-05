@@ -54,17 +54,32 @@ const projects: Project[] = [
       type: 'external',
     },
   },
-  {
-    title: 'PhotoAI',
-    path: '~/projects/photoai',
-    category: 'React App · AI Photo Features',
-    description: 'React + Tailwind application for AI-powered photo features, deployed on Vercel.',
-    bullets: [
-      'Implemented AI-powered photo processing and enhancement features.',
-      'Built with React and Tailwind CSS, deployed on Vercel.',
-    ],
-    tags: ['React', 'Tailwind CSS', 'AI', 'Vercel'],
-  },
+ {
+  title: 'ClinicFlow',
+  path: '~/projects/hrs-3fa',
+  category: 'Full-Stack Health Record System · 3FA Authentication',
+  description:
+    'A full-stack electronic health record system that uses three-factor authentication to secure patient records and healthcare workflows.',
+  bullets: [
+    'Implemented three-factor authentication combining password authentication, fingerprint verification, and face recognition.',
+    'Built patient and healthcare dashboards for managing electronic health records, medical information, and patient workflows.',
+    'Developed the frontend with React and Tailwind CSS and integrated the application with a backend API and database.',
+    'Implemented biometric face recognition functionality and secure access controls for sensitive patient information.',
+    'Deployed the application to Vercel for production use.'
+  ],
+  tags: [
+    'React',
+    'Tailwind CSS',
+    'Django',
+    'MySQL',
+    'JWT',
+    'Face Recognition',
+    'Biometrics',
+    '3FA',
+    'EHR',
+    'Vercel'
+  ],
+},
   {
     title: 'Writeup',
     path: '~/projects/writeup',
