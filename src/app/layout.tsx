@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Metadata, Viewport } from 'next';
-// @ts-expect-error CSS is handled by Next.js and has no TypeScript declarations.
 import '../styles/tailwind.css';
 
 export const viewport: Viewport = {
