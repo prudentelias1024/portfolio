@@ -48,6 +48,11 @@ const projects: Project[] = [
       'Deployed on Vercel with a clean, responsive UI for browsing recommendations.',
     ],
     tags: ['React', 'Tailwind CSS', 'Vercel'],
+    link: {
+      href: 'https://flix-recommender.vercel.app/',
+      label: 'Preview',
+      type: 'external',
+    },
   },
   {
     title: 'PhotoAI',
@@ -70,6 +75,11 @@ const projects: Project[] = [
       'Implemented real-time in-app notifications using WebSockets, authentication, and dark mode.',
     ],
     tags: ['Cross-Platform', 'WebSockets', 'Authentication', 'Dark Mode', 'Android'],
+     link: {
+      href: 'https://writeup.vercel.app/',
+      label: 'Preview',
+      type: 'external',
+    },
   },
   {
     title: 'Ink Up AI',
@@ -99,7 +109,7 @@ const projects: Project[] = [
     },
   },
   {
-    title: 'Invoice Creator',
+    title: 'Invora',
     path: '~/projects/invoice-creator',
     category: 'Tool · PDF Generation',
     description: 'A tool that converts spreadsheet-based invoice files into professional, downloadable PDF documents.',
@@ -108,6 +118,11 @@ const projects: Project[] = [
       'Streamlines billing workflows with quick generation from structured data using SheetJS and jsPDF.',
     ],
     tags: ['JavaScript', 'jsPDF', 'SheetJS', 'PDF Generation'],
+    link: {
+      href: 'https://invoice-creator-delta.vercel.app/',
+      label: 'Preview',
+      type: 'external',
+    },
   },
 ];
 
